@@ -74,13 +74,13 @@ class MatrixModEncryptor:
 encryptionKey_str = '3,5,1,4,5,6,7,5,2' # Default value as a fallback
 encryptor1 = MatrixModEncryptor(encryptionKey_str,3)
 
-encryptor2 = MatrixModEncryptor(encryptionKey_str,2)
-plaintext = " Using re.search er"
+
+plaintext = "Use a"
 encrypted1 = encryptor1.encrypt(plaintext)
-encrypted2 = encryptor2.encrypt(plaintext)
+
 print(f"Encrypted: {encrypted1}",'1=================')
-print(f"Encrypted: {encrypted2}",'2=================')
+
 decrypted1 = encryptor1.decrypt(encrypted1)
-decrypted2 = encryptor1.decrypt(encrypted2)
+
 print(f"Decrypted: {decrypted1}")
-print(f"Decrypted: {decrypted2}")
+
