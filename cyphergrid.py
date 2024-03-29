@@ -72,6 +72,7 @@ class MatrixModEncryptor:
 
 # Assuming the E_flat is taken from an environment variable as a string like '3,5,1,2'
 encryptionKey_str = '3,5,1,4,5,6,7,5,2' # Default value as a fallback
+# I think this should be n*n matrix
 encryptor1 = MatrixModEncryptor(encryptionKey_str,3)
 
 
