@@ -75,7 +75,7 @@ encryptionKey_str = '3,5,1,4,5,6,7,5,2' # Default value as a fallback
 # I think this should be n*n matrix
 encryptor1 = MatrixModEncryptor(encryptionKey_str,3)
 
-
+# this is the plain text to be encrypted 
 plaintext = "Use a"
 encrypted1 = encryptor1.encrypt(plaintext)
 
